@@ -1,0 +1,11 @@
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\bin\Debug\net6.0\Mathematics.deps.json
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\bin\Debug\net6.0\Mathematics.dll
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\bin\Debug\net6.0\Mathematics.pdb
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\obj\Debug\net6.0\Mathematics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\obj\Debug\net6.0\Mathematics.AssemblyInfoInputs.cache
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\obj\Debug\net6.0\Mathematics.AssemblyInfo.cs
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\obj\Debug\net6.0\Mathematics.csproj.CoreCompileInputs.cache
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\obj\Debug\net6.0\Mathematics.dll
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\obj\Debug\net6.0\refint\Mathematics.dll
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\obj\Debug\net6.0\Mathematics.pdb
+C:\Users\knigh\OneDrive\Desktop\AdvancedNET\Mathematics\Mathematics\obj\Debug\net6.0\ref\Mathematics.dll

@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics.Test\\Mathematics.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics.Test\\Mathematics.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics.Test\\Mathematics.Test.csproj",
+        "projectName": "Mathematics.Test",
+        "projectPath": "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics.Test\\Mathematics.Test.csproj",
+        "packagesPath": "C:\\Users\\knigh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\knigh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics\\Mathematics.csproj": {
+                "projectPath": "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics\\Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics\\Mathematics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics\\Mathematics.csproj",
+        "projectName": "Mathematics",
+        "projectPath": "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics\\Mathematics.csproj",
+        "packagesPath": "C:\\Users\\knigh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\knigh\\OneDrive\\Desktop\\AdvancedNET\\Mathematics\\Mathematics\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\knigh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
