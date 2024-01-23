@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MathematicsConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "Average 20 10 20 10"
+    }
+  }
+}
