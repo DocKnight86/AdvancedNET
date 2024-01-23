@@ -63,7 +63,7 @@ namespace MathematicsConsole
                 }
                 default:
                 {
-                    Console.WriteLine($"{_operand} is not a valid operator. Please enter Add, Sub, Mul, Div, Area, Squared, Theorem");
+                    Console.WriteLine($"{_operand} is not a valid operator. Please enter Add, Sub, Mul, Div, Area, Average, Squared, or Theorem");
                     break;
                 }
             }
