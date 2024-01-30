@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BlockBuster.Models;
+﻿using BlockBuster.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlockBuster
 {
@@ -21,7 +17,7 @@ namespace BlockBuster
         {
             using (var db = new SE407_BlockBusterContext())
             {
-                return db.Movies.ToList();
+                return db.Movies.Include(m => m.Director).Include(m => m.Genre).ToList();
             }
         }
 
@@ -47,5 +43,30 @@ namespace BlockBuster
                 }).ToList();
             }
         }
+
+        public static List<Movie> GetMoviesByGenre(string genreDescription)
+        {
+            using (var db = new SE407_BlockBusterContext())
+            {
+                return db.Movies.Include(m => m.Genre).Where(m => m.Genre.GenreDescr == genreDescription).ToList();
+            }
+        }
+
+        public static List<Movie> GetMoviesByDirectorLastName(string lastName)
+        {
+            using (var db = new SE407_BlockBusterContext())
+            {
+                return db.Movies.Where(m => m.Director.LastName == lastName).ToList();
+            }
+        }
+
+        public static Movie GetMovieByTitle(string title)
+        {
+            using (var db = new SE407_BlockBusterContext())
+            {
+                return db.Movies.FirstOrDefault(m => m.Title == title);
+            }
+        }
+
     }
 }

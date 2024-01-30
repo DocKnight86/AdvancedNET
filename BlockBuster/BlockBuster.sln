@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockBuster", "BlockBuster\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockBusterTest", "BlockBusterTest\BlockBusterTest.csproj", "{2D5AC88A-BE9E-4942-86B1-EA1C4BE07938}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockBusterConsole", "BlockBusterConsole\BlockBusterConsole.csproj", "{B0E22D39-05E5-441E-80C0-A83C2896795C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2D5AC88A-BE9E-4942-86B1-EA1C4BE07938}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5AC88A-BE9E-4942-86B1-EA1C4BE07938}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5AC88A-BE9E-4942-86B1-EA1C4BE07938}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E22D39-05E5-441E-80C0-A83C2896795C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E22D39-05E5-441E-80C0-A83C2896795C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E22D39-05E5-441E-80C0-A83C2896795C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E22D39-05E5-441E-80C0-A83C2896795C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
