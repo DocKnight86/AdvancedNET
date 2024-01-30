@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace BlockBuster.Models
+﻿namespace BlockBuster.Models
 {
     public partial class AuditLog
     {
