@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BookstoreConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "Console GetBookByTitle \"The Travels of Marco Polo"
+    }
+  }
+}
