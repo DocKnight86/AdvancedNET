@@ -1,6 +1,7 @@
 ﻿using BlockBusterWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using BlockBuster;
 
 namespace BlockBusterWebApp.Controllers
 {
@@ -21,6 +22,12 @@ namespace BlockBusterWebApp.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult Movies()
+        {
+            var movieList = BlockBusterBasicFunctions.GetAllMoviesFull();
+            return View(movieList);
         }
 
         public IActionResult Colors()
