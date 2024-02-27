@@ -30,6 +30,20 @@ namespace BlockBusterWebApp.Controllers
             return View();
         }
 
+        public IActionResult Cities()
+        {
+            string[] cities = { "Providence", "Boston", "Miami", "San Antonio", "Seoul" };
+            ViewBag.Cities = cities;
+            return View();
+        }
+
+        public IActionResult Hobbies()
+        {
+            string[] hobbies = { "Hiking", "Vintage Game Collecting", "Coding", "Investing", "Traveling" };
+            ViewBag.Hobbies = hobbies;
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
