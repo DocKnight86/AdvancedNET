@@ -21,6 +21,16 @@ namespace BlockBuster
             }
         }
 
+        public static List<Movie> GetAllMoviesFull()
+        {
+            using (var db = new SE407_BlockBusterContext())
+            {
+                var movies = db.Movies.Include(movies => movies.Director).Include(movies => movies.Genre).ToList();
+
+                return movies;
+            }
+        }
+
         public static List<Movie> GetAllCheckedOutMovies()
         {
             using (var db = new SE407_BlockBusterContext())
