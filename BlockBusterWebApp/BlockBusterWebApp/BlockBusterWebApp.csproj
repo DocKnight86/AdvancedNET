@@ -20,4 +20,8 @@
     <ProjectReference Include="..\..\BlockBuster\BlockBuster\BlockBuster.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Admin\" />
+  </ItemGroup>
+
 </Project>
