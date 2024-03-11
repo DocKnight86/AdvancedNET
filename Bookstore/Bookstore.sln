@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore", "Bookstore\Bookstore.csproj", "{CEE63016-DCEB-47DA-9487-8DEEB7530BBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookstore", "Bookstore\Bookstore.csproj", "{CEE63016-DCEB-47DA-9487-8DEEB7530BBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookstoreTest", "BookstoreTest\BookstoreTest.csproj", "{08F54FC0-6166-47A4-A824-AC703C59E988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookstoreTest", "BookstoreTest\BookstoreTest.csproj", "{08F54FC0-6166-47A4-A824-AC703C59E988}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookstoreConsole", "BookstoreConsole\BookstoreConsole.csproj", "{F1AC7201-FCA3-4EE6-ACDF-4BAE19A84FA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookstoreConsole", "BookstoreConsole\BookstoreConsole.csproj", "{F1AC7201-FCA3-4EE6-ACDF-4BAE19A84FA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookstoreWebApp", "BookstoreWebApp\BookstoreWebApp.csproj", "{33888E9B-F9FC-4EC2-8770-2DCEC7FA3E77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F1AC7201-FCA3-4EE6-ACDF-4BAE19A84FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1AC7201-FCA3-4EE6-ACDF-4BAE19A84FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1AC7201-FCA3-4EE6-ACDF-4BAE19A84FA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33888E9B-F9FC-4EC2-8770-2DCEC7FA3E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33888E9B-F9FC-4EC2-8770-2DCEC7FA3E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33888E9B-F9FC-4EC2-8770-2DCEC7FA3E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33888E9B-F9FC-4EC2-8770-2DCEC7FA3E77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
